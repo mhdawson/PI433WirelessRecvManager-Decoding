@@ -27,6 +27,8 @@ Try CRCs - no luck
   - make sure to try different bit orders (LSB, MSB etc.)
   https://sourceforge.net/projects/reveng/files/
 
+Linear equation ? http://wims.unice.fr/wims/en_tool~linear~linsolver.en.html
+
 Simple addition 4 bit nibles
  - bottom yes
  - top no
@@ -46,5 +48,6 @@ D3 FF 00 34
 
 # payload
 
+* Units 
 * XOR with device id
-* 
+* Linear equation ? http://wims.unice.fr/wims/en_tool~linear~linsolver.en.html 
