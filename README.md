@@ -4,11 +4,14 @@ Use Audigy
 
 # Encoding Type
 
-manchester - https://en.wikipedia.org/wiki/Manchester_code
-None-return-to-zero - https://en.wikipedia.org/wiki/Non-return-to-zero
-based on width of pulses 
+## bit encoding
+* manchester - https://en.wikipedia.org/wiki/Manchester_code
+* None-return-to-zero - https://en.wikipedia.org/wiki/Non-return-to-zero
+* based on width of pulses 
 
-# Layout
+# sync
+
+# Payload layout
 
 * device id
 * checksum
@@ -40,3 +43,8 @@ D0 FC 00 34
 52 FE 00 34
 D3 FF 00 34
 98 03 01 34
+
+# payload
+
+* XOR with device id
+* 
