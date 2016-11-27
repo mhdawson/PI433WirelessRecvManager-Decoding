@@ -1,6 +1,6 @@
 # Capture waveform
 
-Use Audigy
+Use Audacity
 
 # Encoding Type
 
